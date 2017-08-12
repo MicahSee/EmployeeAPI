@@ -1,0 +1,10 @@
+MongoDB schema must be in the following form:
+
+{
+  "_id": "FINANCE480a", #some kind of unique identified
+   "name": "Micah See",	#the employee's name
+   "department": "Finance" #the department the employee belongs to	
+}
+
+Python Version: 3.6 (required for the built-in secrets module)
+Requirements: flask, flask_restful, pymongo
